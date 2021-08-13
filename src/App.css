@@ -1,21 +1,20 @@
 .App {
+  font-size: 24px;
   text-align: center;
 }
-
+.App > p {
+  margin: 3rem auto;
+  width: 380px;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
-
 .App-header {
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  font-size: 5rem;
+  margin: auto;
+  white-space: wrap;
 }
-
 .App-link {
   color: #61dafb;
 }

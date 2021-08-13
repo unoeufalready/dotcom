@@ -40,22 +40,16 @@ function App() {
 
   return (
     <div className="App">
-      <header className="App-header">
-        {header}
-        <img src="/logo.png" className="App-logo" alt="logo" />
-        <p>
-          Welcome! We are serious app developers and we're here for{" "}
-          <em>YOU!</em>
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React or how to make your own apps etc.
-        </a>
-      </header>
+      <header className="App-header">{header}</header>
+      <img src="/logo.png" className="App-logo" alt="logo" />
+      <p>
+        Welcome! We are serious app developers and we're here for <em>YOU!</em>
+      </p>
+      <p>
+        We are trying our darnedest to get an app out there. It ain't much but
+        it's the best we can do on such short notice! Hopefully soon we'll have
+        a live link to share with the <abbr title="World Wide Web">www.</abbr>
+      </p>
     </div>
   );
 }
