@@ -46,10 +46,17 @@ function App() {
         Welcome! We are serious app developers and we're here for <em>YOU!</em>
       </p>
       <p>
-        We are trying our darnedest to get an app out there. It ain't much but
-        it's the best we can do on such short notice! Hopefully soon we'll have
-        a live link to share with the <abbr title="World Wide Web">www.</abbr>
+        Yay!{" "}
+        <a
+          href="https://play.google.com/store/apps/details?id=com.unoeufalready.halftime"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <strong>Half Time</strong> is live on Google Play
+        </a>{" "}
+        now! Feel free to kick the tires already!
       </p>
+      <p>What's next you ask? You tell me!</p>
     </div>
   );
 }
